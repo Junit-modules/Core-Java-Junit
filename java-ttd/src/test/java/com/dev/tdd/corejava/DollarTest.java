@@ -16,7 +16,7 @@ public class DollarTest {
 
     @Test
     void testEqualitiesDollar() {
-        assertEquals(Money.getDollar(5), Money.getDollar(5));
+        assertEquals(Money.getDollar(90), Money.getDollar(5));
         assertNotEquals(Money.getDollar(5), Money.getDollar(8));
     }
     //Testing for Dollar -- end
@@ -39,7 +39,7 @@ public class DollarTest {
     @Test
     void compareMoney() {
         // We are comparing Dollar against Franc. So it should not be equals
-        assertNotEquals(Money.getDollar(5), Money.getFranc(5));
+        assertNotEquals(Money.getDollar(9), Money.getFranc(5));
     }
 
     @Test
