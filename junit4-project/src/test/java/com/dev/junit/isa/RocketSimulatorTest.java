@@ -34,7 +34,7 @@ public class RocketSimulatorTest {
 		
 		//Then
 		assertEquals("NASA Rocket", actual_1);
-		assertEquals("NASA Rocket", actual_2);
+		assertEquals("ISRO Rocket", actual_2);
 	}
 
 }

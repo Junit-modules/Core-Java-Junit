@@ -43,7 +43,7 @@ public class ReportGeneratorServiceTest {
 		
 		ReportEntity capturedValue = captor.getValue();
 		assertEquals(11, capturedValue.getStartDate().getMonth()); 
-		verify(iReportGenerator, times(2)).generateReport(capturedValue);
+		verify(iReportGenerator, times(1)).generateReport(capturedValue);
 	}
 
 }
